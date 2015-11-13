@@ -39,12 +39,12 @@ Dom上的类，为了可以和```Swiper```无缝切换，已和```Swiper```统�
 Aimeejs app内应该在 ```app.pagerender``` 方法之内调用，  
 Aimeejs page内应该在 ```page.postrender``` 方法之内调用
 ```javascript
-$('.swipe').swipe()
+$('.swiper-container').swipe()
 ```
 
 or
 ```javascript
-$('.swipe').swipe({
+$('.swiper-container').swipe({
 	// 设定初始化时slide的索引，默认为0
 	startSlide: 0,
 
